@@ -34,7 +34,7 @@ body {
   margin: 0;
   height: 100%;
   color: $white;
-  background-color: rgb(15, 41, 90);
+  background-color: $black;
   font-family: 'aeroport', sans-serif;
   -webkit-font-smoothing: antialiased;
   -webkit-text-size-adjust: none;
@@ -100,6 +100,10 @@ a {
     transition: color 300ms ease-in-out 0s;
     text-decoration: none;
   }
+}
+
+p {
+  line-height: 1.5;
 }
 
 abbr[title] {
@@ -550,6 +554,7 @@ input:focus {
         margin-top: -2px;
         margin-left: -2px;
         margin-bottom: 10px;
+        margin-right: 10px;
         transition: color 300ms ease-in-out 0s, background-color 300ms ease-in-out 0s;
         width: auto;
       }
