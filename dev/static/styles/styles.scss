@@ -561,8 +561,8 @@ input:focus {
   margin-bottom: 80px;
 }
 
-.about{
-  .about--wrap{
+.about {
+  .about--wrap {
     padding-top: 50px;
   }
 }
@@ -652,6 +652,7 @@ input:focus {
 
     .project--footer {
       padding: 31px 0px;
+      border-bottom: 1px solid $red;
 
       .project--made {
         span {
