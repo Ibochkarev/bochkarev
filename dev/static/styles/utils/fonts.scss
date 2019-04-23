@@ -1,3 +1,4 @@
 @import "font-face";
 
-// @include font-face("lato-black", "../fonts/Lato/Lato-Black");
+@include font-face("aeroport", "../fonts/aeroflot/aeroport-regular");
+@include font-face("aeroport-bold", "../fonts/aeroflot/aeroport-bold");

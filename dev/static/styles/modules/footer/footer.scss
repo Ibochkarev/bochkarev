@@ -1,0 +1,10 @@
+footer.footer {
+  padding-bottom: 60px;
+  padding: 0px 40px;
+
+  .footer--wrap {
+    padding: 40px 0;
+    border-top-width: 2px;
+    border-top: 1px solid $red;
+  }
+}
