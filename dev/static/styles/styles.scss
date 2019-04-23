@@ -1,0 +1,90 @@
+@import "utils/libs";
+@import "utils/vars";
+@import "utils/mixins";
+@import "utils/fonts";
+
+::placeholder {
+  color: #666;
+}
+
+::selection {
+  background-color: $black;
+  color: $white;
+}
+
+*,
+::after,
+::before {
+  box-sizing: inherit;
+}
+
+body {
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.5;
+  overflow-x: hidden;
+  color: $mineShaft;
+  background: $white;
+  font-family: Helvetica;
+  outline: 0;
+  margin: 0;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+
+  &.img-width {
+    width: 100%;
+  }
+}
+
+.text-center {
+  text-align: center !important;
+}
+
+.text-left {
+  text-align: left !important;
+}
+
+.text-right {
+  text-align: right !important;
+}
+
+.mx-auto {
+  margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+b,
+strong {
+  font-weight: bold;
+}
+
+.container {
+  margin: 0 auto;
+  width: 100%;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+input:focus {
+  outline: 0;
+  box-shadow: none;
+
+}
+
+.form-control:focus {
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+//Модули
+@import "modules/modules";
+@import "media";
